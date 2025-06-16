@@ -4,6 +4,13 @@
  *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
  */
+
+ hr.entry-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 1.5rem 0;
+}
+
 @font-face {
     font-family: 'Academicons';
     font-style: normal;

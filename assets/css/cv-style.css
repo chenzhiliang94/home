@@ -1,3 +1,9 @@
+hr.entry-divider {
+  border: none;
+  border-top: 1px solid black;
+  margin: 1.5rem 0;
+}
+
 /* CV Template Styles */
 .cv-container {
   max-width: 1000px;
