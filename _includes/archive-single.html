@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if post.image %}
-    <img src="{{ post.image }}" alt="Thumbnail for {{ title }}" style="width: 800px; height: auto; object-fit: cover; border-radius: 6px;" />
+    <img src="{{ site.baseurl }}/{{ post.image }}" alt="Thumbnail for {{ title }}" style="width: 800px; height: auto; object-fit: cover; border-radius: 6px;" />
   {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
